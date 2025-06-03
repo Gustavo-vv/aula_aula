@@ -54,3 +54,14 @@ img{
     padding: 10px;
     font-size: 18px;
 }
+@media (max-width: 768px) {
+    header {
+        /* medidadas relavativas 
+        % de ao infiinto
+        % vh viewport altura
+        vw viewport largura 
+        */
+        display: none;
+    }
+    
+}
