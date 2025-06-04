@@ -6,12 +6,12 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #272727;
+    color: #000000;
 }
 header {
-    background-color: #000000;
+    background-color: #000000af;
     color: white;
-    padding: 15px 0;
+    padding: 52px ;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -50,4 +50,13 @@ img{
     position: flex;
     
 }
+.navbar-mobile{
+    display: none;
 
+}
+.navbar-desktop{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10%;
+    margin-top: 50px;
+}
